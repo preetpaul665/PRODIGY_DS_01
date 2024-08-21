@@ -43,11 +43,11 @@ View(population)
 ## Hence, the dataset is free from any missing values
 
 ## From the dataset, we can clearly see that, the 3 variables viz. "Country Code", "Indicator Name" & "Indicator Code"
-## attributes(more precisely, nominal variables) and the rest which are denotes by 1960 to 2005, that represents the 
+## are attributes(more precisely, nominal variables) and the rest which are denotes by 1960 to 2005, that represents the 
 ## population of the corresponding years. So, those are continuous variables. So, we will give our graphical analysis 
 ## on those variables.
 
-# Eliminating the nomial variables of the dataset
+# Eliminating the nominal variables of the dataset
 population <- population[, -c(2,3,4)]
 View(population)
 
